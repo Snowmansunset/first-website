@@ -1,16 +1,19 @@
-img {
-  width: 100%;
-  border-radius: 10px;
-  float: left;
-  margin-right: 10px;
+body {
+  background-color: #30ff3b;
 }
-
-div {
-  position: relative;
-  top: 10%;
-  width: 80%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  border: 10px solid rgb(0, 0, 0);
+img.logo {
+  height: 80px;
+  width: 150px;
+}
+div.main {
+  background-color: rgb(255, 255, 255);
+  border: #ffffff;
+  width: 90vw;
+  height: 90vh;
+  margin-left: 4%;
+  margin-top: 10%;
+}
+header.mainheader {
+  position: fixed;
+  text-align: top;
 }
